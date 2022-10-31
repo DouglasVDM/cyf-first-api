@@ -1,12 +1,12 @@
 const express = require('express'); 
 const fetch = require('node-fetch');
 const app = express();             
-const port = 5000;                  
+const port = 5001;                  
 
 let YOUR_NAME = "douglas"
 let YOUR_LUCKY_NUMBER = "11"
 
-let URL = "http://localhost:5001"
+let URL = "http://localhost:5001/"
 
 app.get('/', (req, res) => {       
     res.send(`Welcome to ${YOUR_NAME}'s 1st API`);                                                        
